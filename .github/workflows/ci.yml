@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: fair-software/howfairis-github-action@v2
+      - name: FAIR badge
+        uses: fair-software/howfairis-github-action@0.2.1
+
 
   train-sdm:                         # ── job 2
     needs: fair                      # waits for the 'fair' job
