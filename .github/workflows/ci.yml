@@ -6,11 +6,16 @@ on:
 
 jobs:
   fair:                              # ── job 1
+    name: FAIR Software Compliance
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: FAIR badge
+
+      - name: Measure compliance with fair‑software.eu
         uses: fair-software/howfairis-github-action@0.2.1
+        with:
+          MY_REPO_URL: "https://github.com/JazzleyLouisville/grassland-dt"
+
 
 
   train-sdm:                         # ── job 2
