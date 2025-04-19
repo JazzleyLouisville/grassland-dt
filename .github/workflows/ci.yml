@@ -5,38 +5,17 @@ on:
   pull_request:
 
 jobs:
-  fair:
+  fair:                              # ── job 1
     name: FAIR Software Compliance
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Measure compliance with fair‑software.eu
+        uses: fair-software/howfairis-github-action@0.2.1
         with:
-          python-version: '3.x'
-
-      - name: Install howfairis
-        run: pip install howfairis
-
-      - name: Run howfairis CLI
-        run: |
-          howfairis https://github.com/${{ github.repository }} \
-            --token ${{ secrets.GITHUB_TOKEN }} \
-            || exit 1
-
-  # fair:                              # ── job 1
-  #   name: FAIR Software Compliance
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v4
-
-  #     - name: Measure compliance with fair‑software.eu
-  #       uses: fair-software/howfairis-github-action@0.2.1
-  #       with:
-  #         MY_REPO_URL: ${{ github.repositoryUrl }}
-  #       env:
-  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_REPO_URL: https://github.com/${{ github.repository }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 
