@@ -1,0 +1,298 @@
+2025-04-19 15:00:34,325 - INFO - Requesting weather data for area ...
+2025-04-19 15:00:34,325 - INFO - latitude: 51.3 - 51.4, longitude: 11.8 - 11.9
+2025-04-19 15:08:18,591 - INFO - Requesting weather data for area ...
+2025-04-19 15:08:18,592 - INFO - latitude: 51.3 - 51.4, longitude: 11.8 - 11.9
+2025-04-19 15:21:14,340 - INFO - Requesting weather data for area ...
+2025-04-19 15:21:14,340 - INFO - latitude: 51.3 - 51.4, longitude: 11.8 - 11.9
+2025-04-19 15:21:14,480 - INFO - [2024-09-26T00:00:00] Watch our [Forum](https://forum.ecmwf.int/) for Announcements, news and other discussed topics.
+2025-04-19 15:21:14,480 - WARNING - [2024-06-16T00:00:00] CDS API syntax is changed and some keys or parameter names may have also changed. To avoid requests failing, please use the "Show API request code" tool on the dataset Download Form to check you are using the correct syntax for your API request.
+2025-04-19 15:21:14,480 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2018_12__hourly.grib' ...
+2025-04-19 15:21:14,560 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2018_12__hourly.grib' not found on OPeNDAP server.
+2025-04-19 15:22:46,884 - INFO - Requesting weather data for area ...
+2025-04-19 15:22:46,884 - INFO - latitude: 51.3 - 51.4, longitude: 11.8 - 11.9
+2025-04-19 15:22:47,014 - INFO - [2024-09-26T00:00:00] Watch our [Forum](https://forum.ecmwf.int/) for Announcements, news and other discussed topics.
+2025-04-19 15:22:47,014 - WARNING - [2024-06-16T00:00:00] CDS API syntax is changed and some keys or parameter names may have also changed. To avoid requests failing, please use the "Show API request code" tool on the dataset Download Form to check you are using the correct syntax for your API request.
+2025-04-19 15:22:47,015 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2018_12__hourly.grib' ...
+2025-04-19 15:22:47,051 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2018_12__hourly.grib' not found on OPeNDAP server.
+2025-04-19 15:22:47,227 - INFO - Request ID is 6b65b578-8e9d-43cf-a59e-bdd9713a063a
+2025-04-19 15:22:47,507 - INFO - status has been updated to accepted
+2025-04-19 15:23:01,363 - INFO - status has been updated to running
+2025-04-19 15:29:07,140 - INFO - status has been updated to successful
+2025-04-19 15:29:07,539 - INFO - Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-2/2025-04-19/2d84c5f224f730c9fe954fa34c2dd67d.grib
+2025-04-19 15:29:08,001 - WARNING - OPeNDAP upload skipped. Valid FTP credentials not available in .env file.
+2025-04-19 15:29:08,001 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2019_01-04__hourly.grib' ...
+2025-04-19 15:29:08,045 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2019_01-04__hourly.grib' not found on OPeNDAP server.
+2025-04-19 15:29:08,542 - INFO - Request ID is a8b7903d-1b0a-4378-ba81-59f177c33c72
+2025-04-19 15:29:08,721 - INFO - status has been updated to accepted
+2025-04-19 15:29:22,427 - INFO - status has been updated to running
+2025-04-19 15:39:06,657 - INFO - Requesting weather data for area ...
+2025-04-19 15:39:06,658 - INFO - latitude: 51.3 - 51.4, longitude: 11.8 - 11.9
+2025-04-19 15:39:06,807 - INFO - [2024-09-26T00:00:00] Watch our [Forum](https://forum.ecmwf.int/) for Announcements, news and other discussed topics.
+2025-04-19 15:39:06,807 - WARNING - [2024-06-16T00:00:00] CDS API syntax is changed and some keys or parameter names may have also changed. To avoid requests failing, please use the "Show API request code" tool on the dataset Download Form to check you are using the correct syntax for your API request.
+2025-04-19 15:39:06,807 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2022_05__hourly.grib' ...
+2025-04-19 15:39:06,852 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2022_05__hourly.grib' not found on OPeNDAP server.
+2025-04-19 15:39:07,043 - INFO - Request ID is 786ed2d7-734b-44ab-811e-447188bacb5d
+2025-04-19 15:39:07,113 - INFO - status has been updated to accepted
+2025-04-19 15:39:15,814 - INFO - status has been updated to running
+2025-04-19 15:45:26,783 - INFO - status has been updated to successful
+2025-04-19 15:45:26,920 - INFO - Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-3/2025-04-19/200ec4f5825189229133ff86ebcdbde0.grib
+2025-04-19 15:45:27,379 - WARNING - OPeNDAP upload skipped. Valid FTP credentials not available in .env file.
+2025-04-19 15:45:27,379 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2022_06__hourly.grib' ...
+2025-04-19 15:45:27,425 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2022_06__hourly.grib' not found on OPeNDAP server.
+2025-04-19 15:45:27,692 - INFO - Request ID is 3421fc93-a4b8-4d03-b386-606cd8738dc4
+2025-04-19 15:45:27,760 - INFO - status has been updated to accepted
+2025-04-19 15:45:49,155 - INFO - status has been updated to running
+2025-04-19 15:51:47,203 - INFO - status has been updated to successful
+2025-04-19 15:51:47,338 - INFO - Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-3/2025-04-19/94bdcf086467522ab710348afe2984.grib
+2025-04-19 15:51:47,769 - WARNING - OPeNDAP upload skipped. Valid FTP credentials not available in .env file.
+2025-04-19 15:51:47,770 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2022_07__hourly.grib' ...
+2025-04-19 15:51:47,817 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2022_07__hourly.grib' not found on OPeNDAP server.
+2025-04-19 15:51:48,055 - INFO - Request ID is 59362c87-36bd-43df-ae75-b66d042ebc62
+2025-04-19 15:51:48,119 - INFO - status has been updated to accepted
+2025-04-19 15:52:01,929 - INFO - status has been updated to running
+2025-04-19 16:00:07,844 - INFO - status has been updated to successful
+2025-04-19 16:00:07,972 - INFO - Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-2/2025-04-19/1ce522bcf693128646ef71b92c6283ab.grib
+2025-04-19 16:00:08,425 - WARNING - OPeNDAP upload skipped. Valid FTP credentials not available in .env file.
+2025-04-19 16:00:08,425 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2022_08__hourly.grib' ...
+2025-04-19 16:00:08,491 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2022_08__hourly.grib' not found on OPeNDAP server.
+2025-04-19 16:00:08,701 - INFO - Request ID is eae79974-8a1d-4da6-a120-50faf5c5c2d1
+2025-04-19 16:00:08,808 - INFO - status has been updated to accepted
+2025-04-19 16:00:41,850 - INFO - status has been updated to running
+2025-04-19 16:06:28,060 - INFO - status has been updated to successful
+2025-04-19 16:06:28,210 - INFO - Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-2/2025-04-19/cb67742f87a501c8b263fe68bebf010e.grib
+2025-04-19 16:06:29,009 - WARNING - OPeNDAP upload skipped. Valid FTP credentials not available in .env file.
+2025-04-19 16:06:29,009 - INFO - Trying to download 'http://opendap.biodt.eu/grasslands-pdt/weatherDataRaw/lat51.3_51.4_lon11.8_11.9__2022_09__hourly.grib' ...
+2025-04-19 16:06:29,058 - INFO - File 'lat51.3_51.4_lon11.8_11.9__2022_09__hourly.grib' not found on OPeNDAP server.
+2025-04-19 16:06:29,447 - INFO - Request ID is afe317a8-33fa-4399-b3fc-098a51f41697
+2025-04-19 16:06:29,513 - INFO - status has been updated to accepted
+2025-04-19 16:06:43,110 - INFO - status has been updated to running
+2025-04-19 16:12:48,674 - INFO - status has been updated to successful
+2025-04-19 16:12:48,797 - INFO - Downloading https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-1/2025-04-19/347a2897fcd5363ea98dc40381856ee3.grib
+2025-04-19 16:12:49,193 - WARNING - OPeNDAP upload skipped. Valid FTP credentials not available in .env file.
+2025-04-19 16:12:55,232 - INFO - Text file with hourly resolution prepared.
+2025-04-19 16:12:55,232 - INFO - List written to file 'data/raw/weather/lat51.392000_lon11.879000__2022-06-01_2022-08-31__hourly__grib__data_query_protocol.txt'.
+2025-04-19 16:12:55,643 - WARNING - Length of daily data for 2022 (92) differs from days in that year (365). PET by Thornthwaite equation not calculated as it requires data for full years!
+2025-04-19 16:12:55,644 - INFO - Text file with daily resolution prepared.
+2025-04-19 16:12:57,441 - INFO - Text file with hourly resolution prepared.
+2025-04-19 16:12:57,441 - INFO - List written to file 'data/raw/weather/lat51.350000_lon11.850000__2022-06-01_2022-08-31__hourly__grib__data_query_protocol.txt'.
+2025-04-19 16:12:57,853 - WARNING - Length of daily data for 2022 (92) differs from days in that year (365). PET by Thornthwaite equation not calculated as it requires data for full years!
+2025-04-19 16:12:57,854 - INFO - Text file with daily resolution prepared.
+2025-04-19 16:12:57,855 - INFO - Preparing soil data for latitude: 51.392, longitude: 11.879 ...
+2025-04-19 16:12:57,855 - INFO - SoilGrids REST API download from https://rest.isric.org/soilgrids/v2.0/properties/query ... 
+2025-04-19 16:14:24,741 - ERROR - Request failed (Error 502).
+2025-04-19 16:14:24,742 - INFO - Retrying in 2 seconds ...
+2025-04-19 16:14:26,789 - ERROR - Request failed (Error 502).
+2025-04-19 16:14:26,789 - INFO - Retrying in 2 seconds ...
+2025-04-19 16:14:28,838 - ERROR - Request failed (Error 502).
+2025-04-19 16:14:28,838 - INFO - Retrying in 2 seconds ...
+2025-04-19 16:14:32,674 - INFO - Reading SoilGrids data ...
+2025-04-19 16:14:32,676 - INFO - Depth 0-5cm, silt mean: 57.8 %
+2025-04-19 16:14:32,676 - INFO - Depth 5-15cm, silt mean: 57.9 %
+2025-04-19 16:14:32,676 - INFO - Depth 15-30cm, silt mean: 60.6 %
+2025-04-19 16:14:32,676 - INFO - Depth 30-60cm, silt mean: 58.0 %
+2025-04-19 16:14:32,676 - INFO - Depth 60-100cm, silt mean: 57.2 %
+2025-04-19 16:14:32,676 - INFO - Depth 100-200cm, silt mean: 57.6 %
+2025-04-19 16:14:32,676 - INFO - Depth 0-5cm, clay mean: 23.0 %
+2025-04-19 16:14:32,676 - INFO - Depth 5-15cm, clay mean: 23.2 %
+2025-04-19 16:14:32,677 - INFO - Depth 15-30cm, clay mean: 23.4 %
+2025-04-19 16:14:32,677 - INFO - Depth 30-60cm, clay mean: 26.5 %
+2025-04-19 16:14:32,677 - INFO - Depth 60-100cm, clay mean: 28.4 %
+2025-04-19 16:14:32,677 - INFO - Depth 100-200cm, clay mean: 28.0 %
+2025-04-19 16:14:32,677 - INFO - Depth 0-5cm, sand mean: 19.2 %
+2025-04-19 16:14:32,677 - INFO - Depth 5-15cm, sand mean: 18.9 %
+2025-04-19 16:14:32,677 - INFO - Depth 15-30cm, sand mean: 16.0 %
+2025-04-19 16:14:32,677 - INFO - Depth 30-60cm, sand mean: 15.5 %
+2025-04-19 16:14:32,677 - INFO - Depth 60-100cm, sand mean: 14.4 %
+2025-04-19 16:14:32,677 - INFO - Depth 100-200cm, sand mean: 14.4 %
+2025-04-19 16:14:32,678 - INFO - Reading HiHydroSoil data ...
+2025-04-19 16:14:32,723 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_0-5cm_M_250m.tif' ...
+2025-04-19 16:14:32,960 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_0-5cm_M_250m.tif.aux: 502
+2025-04-19 16:14:32,979 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_0-5cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:33,049 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_0-5cm_M_250m.tif.msk: 502
+2025-04-19 16:14:33,073 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_0-5cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:35,283 - INFO - Depth 0-5cm, field capacity: 0.4495 m³/m³
+2025-04-19 16:14:35,321 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_5-15cm_M_250m.tif' ...
+2025-04-19 16:14:35,472 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_5-15cm_M_250m.tif.aux: 502
+2025-04-19 16:14:35,490 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_5-15cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:35,545 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_5-15cm_M_250m.tif.msk: 502
+2025-04-19 16:14:35,562 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_5-15cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:37,894 - INFO - Depth 5-15cm, field capacity: 0.4006 m³/m³
+2025-04-19 16:14:37,932 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_15-30cm_M_250m.tif' ...
+2025-04-19 16:14:38,098 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_15-30cm_M_250m.tif.aux: 502
+2025-04-19 16:14:38,114 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_15-30cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:38,167 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_15-30cm_M_250m.tif.msk: 502
+2025-04-19 16:14:38,183 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_15-30cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:41,327 - INFO - Depth 15-30cm, field capacity: 0.3823 m³/m³
+2025-04-19 16:14:41,368 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_30-60cm_M_250m.tif' ...
+2025-04-19 16:14:41,487 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_30-60cm_M_250m.tif.aux: 502
+2025-04-19 16:14:41,503 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_30-60cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:41,554 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_30-60cm_M_250m.tif.msk: 502
+2025-04-19 16:14:41,570 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_30-60cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:42,541 - INFO - Depth 30-60cm, field capacity: 0.4027 m³/m³
+2025-04-19 16:14:42,581 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_60-100cm_M_250m.tif' ...
+2025-04-19 16:14:42,700 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_60-100cm_M_250m.tif.aux: 502
+2025-04-19 16:14:42,717 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_60-100cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:42,770 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_60-100cm_M_250m.tif.msk: 502
+2025-04-19 16:14:42,787 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_60-100cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:44,501 - INFO - Depth 60-100cm, field capacity: 0.3991 m³/m³
+2025-04-19 16:14:44,538 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_100-200cm_M_250m.tif' ...
+2025-04-19 16:14:44,677 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_100-200cm_M_250m.tif.aux: 502
+2025-04-19 16:14:44,693 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_100-200cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:44,744 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_100-200cm_M_250m.tif.msk: 502
+2025-04-19 16:14:44,760 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF2_100-200cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:46,944 - INFO - Depth 100-200cm, field capacity: 0.3872 m³/m³
+2025-04-19 16:14:46,982 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_0-5cm_M_250m.tif' ...
+2025-04-19 16:14:47,126 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_0-5cm_M_250m.tif.aux: 502
+2025-04-19 16:14:47,143 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_0-5cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:47,193 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_0-5cm_M_250m.tif.msk: 502
+2025-04-19 16:14:47,209 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_0-5cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:49,356 - INFO - Depth 0-5cm, permanent wilting point: 0.1613 m³/m³
+2025-04-19 16:14:49,395 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_5-15cm_M_250m.tif' ...
+2025-04-19 16:14:49,522 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_5-15cm_M_250m.tif.aux: 502
+2025-04-19 16:14:49,541 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_5-15cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:49,601 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_5-15cm_M_250m.tif.msk: 502
+2025-04-19 16:14:49,620 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_5-15cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:51,771 - INFO - Depth 5-15cm, permanent wilting point: 0.1433 m³/m³
+2025-04-19 16:14:51,810 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_15-30cm_M_250m.tif' ...
+2025-04-19 16:14:51,929 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_15-30cm_M_250m.tif.aux: 502
+2025-04-19 16:14:51,946 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_15-30cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:51,999 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_15-30cm_M_250m.tif.msk: 502
+2025-04-19 16:14:52,015 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_15-30cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:53,205 - INFO - Depth 15-30cm, permanent wilting point: 0.1536 m³/m³
+2025-04-19 16:14:53,241 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_30-60cm_M_250m.tif' ...
+2025-04-19 16:14:53,363 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_30-60cm_M_250m.tif.aux: 502
+2025-04-19 16:14:53,381 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_30-60cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:53,436 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_30-60cm_M_250m.tif.msk: 502
+2025-04-19 16:14:53,452 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_30-60cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:55,661 - INFO - Depth 30-60cm, permanent wilting point: 0.1516 m³/m³
+2025-04-19 16:14:55,699 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_60-100cm_M_250m.tif' ...
+2025-04-19 16:14:55,817 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_60-100cm_M_250m.tif.aux: 502
+2025-04-19 16:14:55,835 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_60-100cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:55,883 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_60-100cm_M_250m.tif.msk: 502
+2025-04-19 16:14:55,899 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_60-100cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:58,290 - INFO - Depth 60-100cm, permanent wilting point: 0.1580 m³/m³
+2025-04-19 16:14:58,327 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_100-200cm_M_250m.tif' ...
+2025-04-19 16:14:58,450 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_100-200cm_M_250m.tif.aux: 502
+2025-04-19 16:14:58,468 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_100-200cm_M_250m.tif.AUX: 502
+2025-04-19 16:14:58,521 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_100-200cm_M_250m.tif.msk: 502
+2025-04-19 16:14:58,539 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCpF4.2_100-200cm_M_250m.tif.MSK: 502
+2025-04-19 16:14:59,818 - INFO - Depth 100-200cm, permanent wilting point: 0.1584 m³/m³
+2025-04-19 16:14:59,858 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_0-5cm_M_250m.tif' ...
+2025-04-19 16:14:59,987 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_0-5cm_M_250m.tif.aux: 502
+2025-04-19 16:15:00,005 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_0-5cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:00,059 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_0-5cm_M_250m.tif.msk: 502
+2025-04-19 16:15:00,077 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_0-5cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:02,509 - INFO - Depth 0-5cm, soil porosity: 0.5065 m³/m³
+2025-04-19 16:15:02,545 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_5-15cm_M_250m.tif' ...
+2025-04-19 16:15:02,674 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_5-15cm_M_250m.tif.aux: 502
+2025-04-19 16:15:02,691 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_5-15cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:02,743 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_5-15cm_M_250m.tif.msk: 502
+2025-04-19 16:15:02,760 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_5-15cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:05,889 - INFO - Depth 5-15cm, soil porosity: 0.4670 m³/m³
+2025-04-19 16:15:05,923 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_15-30cm_M_250m.tif' ...
+2025-04-19 16:15:06,096 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_15-30cm_M_250m.tif.aux: 502
+2025-04-19 16:15:06,114 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_15-30cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:06,171 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_15-30cm_M_250m.tif.msk: 502
+2025-04-19 16:15:06,188 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_15-30cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:08,041 - INFO - Depth 15-30cm, soil porosity: 0.4309 m³/m³
+2025-04-19 16:15:08,082 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_30-60cm_M_250m.tif' ...
+2025-04-19 16:15:08,279 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_30-60cm_M_250m.tif.aux: 502
+2025-04-19 16:15:08,311 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_30-60cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:08,368 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_30-60cm_M_250m.tif.msk: 502
+2025-04-19 16:15:08,385 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_30-60cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:10,288 - INFO - Depth 30-60cm, soil porosity: 0.4369 m³/m³
+2025-04-19 16:15:10,328 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_60-100cm_M_250m.tif' ...
+2025-04-19 16:15:10,511 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_60-100cm_M_250m.tif.aux: 502
+2025-04-19 16:15:10,529 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_60-100cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:10,582 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_60-100cm_M_250m.tif.msk: 502
+2025-04-19 16:15:10,602 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_60-100cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:12,546 - INFO - Depth 60-100cm, soil porosity: 0.4288 m³/m³
+2025-04-19 16:15:12,581 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_100-200cm_M_250m.tif' ...
+2025-04-19 16:15:12,729 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_100-200cm_M_250m.tif.aux: 502
+2025-04-19 16:15:12,745 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_100-200cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:12,794 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_100-200cm_M_250m.tif.msk: 502
+2025-04-19 16:15:12,811 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/WCsat_100-200cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:15,086 - INFO - Depth 100-200cm, soil porosity: 0.4147 m³/m³
+2025-04-19 16:15:15,121 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_0-5cm_M_250m.tif' ...
+2025-04-19 16:15:15,265 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_0-5cm_M_250m.tif.aux: 502
+2025-04-19 16:15:15,282 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_0-5cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:15,337 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_0-5cm_M_250m.tif.msk: 502
+2025-04-19 16:15:15,354 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_0-5cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:18,451 - INFO - Depth 0-5cm, saturated hydraulic conductivity: 12.8748 cm/d
+2025-04-19 16:15:18,490 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_5-15cm_M_250m.tif' ...
+2025-04-19 16:15:18,641 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_5-15cm_M_250m.tif.aux: 502
+2025-04-19 16:15:18,658 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_5-15cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:18,711 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_5-15cm_M_250m.tif.msk: 502
+2025-04-19 16:15:18,728 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_5-15cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:21,627 - INFO - Depth 5-15cm, saturated hydraulic conductivity: 17.3767 cm/d
+2025-04-19 16:15:21,665 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_15-30cm_M_250m.tif' ...
+2025-04-19 16:15:21,843 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_15-30cm_M_250m.tif.aux: 502
+2025-04-19 16:15:21,859 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_15-30cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:21,913 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_15-30cm_M_250m.tif.msk: 502
+2025-04-19 16:15:21,930 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_15-30cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:25,949 - INFO - Depth 15-30cm, saturated hydraulic conductivity: 16.3080 cm/d
+2025-04-19 16:15:25,985 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_30-60cm_M_250m.tif' ...
+2025-04-19 16:15:26,157 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_30-60cm_M_250m.tif.aux: 502
+2025-04-19 16:15:26,173 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_30-60cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:26,222 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_30-60cm_M_250m.tif.msk: 502
+2025-04-19 16:15:26,239 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_30-60cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:33,062 - INFO - Depth 30-60cm, saturated hydraulic conductivity: 5.4549 cm/d
+2025-04-19 16:15:33,102 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_60-100cm_M_250m.tif' ...
+2025-04-19 16:15:33,273 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_60-100cm_M_250m.tif.aux: 502
+2025-04-19 16:15:33,290 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_60-100cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:33,342 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_60-100cm_M_250m.tif.msk: 502
+2025-04-19 16:15:33,357 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_60-100cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:36,483 - INFO - Depth 60-100cm, saturated hydraulic conductivity: 5.6600 cm/d
+2025-04-19 16:15:36,520 - INFO - Reading from file 'http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_100-200cm_M_250m.tif' ...
+2025-04-19 16:15:36,711 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_100-200cm_M_250m.tif.aux: 502
+2025-04-19 16:15:36,727 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_100-200cm_M_250m.tif.AUX: 502
+2025-04-19 16:15:36,782 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_100-200cm_M_250m.tif.msk: 502
+2025-04-19 16:15:36,798 - WARNING - CPLE_AppDefined in HTTP response code on http://opendap.biodt.eu/grasslands-pdt/soilMapsHiHydroSoil/Ksat_100-200cm_M_250m.tif.MSK: 502
+2025-04-19 16:15:40,431 - INFO - Depth 100-200cm, saturated hydraulic conductivity: 5.7432 cm/d
+2025-04-19 16:15:40,431 - INFO - Mapping data from SoilGrids depths to grassland model depths ...
+2025-04-19 16:15:40,432 - INFO - Depth 0-10cm, silt: 0.5785 , clay: 0.2310 , sand: 0.1905 
+2025-04-19 16:15:40,432 - INFO - Depth 10-20cm, silt: 0.5925 , clay: 0.2330 , sand: 0.1745 
+2025-04-19 16:15:40,432 - INFO - Depth 20-30cm, silt: 0.6060 , clay: 0.2340 , sand: 0.1600 
+2025-04-19 16:15:40,432 - INFO - Depth 30-40cm, silt: 0.5800 , clay: 0.2650 , sand: 0.1550 
+2025-04-19 16:15:40,432 - INFO - Depth 40-50cm, silt: 0.5800 , clay: 0.2650 , sand: 0.1550 
+2025-04-19 16:15:40,432 - INFO - Depth 50-60cm, silt: 0.5800 , clay: 0.2650 , sand: 0.1550 
+2025-04-19 16:15:40,432 - INFO - Depth 60-70cm, silt: 0.5720 , clay: 0.2840 , sand: 0.1440 
+2025-04-19 16:15:40,432 - INFO - Depth 70-80cm, silt: 0.5720 , clay: 0.2840 , sand: 0.1440 
+2025-04-19 16:15:40,432 - INFO - Depth 80-90cm, silt: 0.5720 , clay: 0.2840 , sand: 0.1440 
+2025-04-19 16:15:40,432 - INFO - Depth 90-100cm, silt: 0.5720 , clay: 0.2840 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 100-110cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 110-120cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 120-130cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 130-140cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 140-150cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 150-160cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 160-170cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 170-180cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 180-190cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Depth 190-200cm, silt: 0.5760 , clay: 0.2800 , sand: 0.1440 
+2025-04-19 16:15:40,433 - INFO - Averaging data over all depths ...
+2025-04-19 16:15:40,433 - INFO - Depth 0-200cm, silt mean: 0.5783 
+2025-04-19 16:15:40,433 - INFO - Depth 0-200cm, clay mean: 0.2715 
+2025-04-19 16:15:40,433 - INFO - Depth 0-200cm, sand mean: 0.1503 
+2025-04-19 16:15:40,433 - INFO - Mapping data from SoilGrids depths to grassland model depths ...
+2025-04-19 16:15:40,433 - INFO - Depth 0-10cm, field capacity: 42.5050 V%, permanent wilting point: 15.2300 V%, soil porosity: 48.6750 V%, saturated hydraulic conductivity: 151.2575 mm/d
+2025-04-19 16:15:40,433 - INFO - Depth 10-20cm, field capacity: 39.1450 V%, permanent wilting point: 14.8450 V%, soil porosity: 44.8950 V%, saturated hydraulic conductivity: 168.4235 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 20-30cm, field capacity: 38.2300 V%, permanent wilting point: 15.3600 V%, soil porosity: 43.0900 V%, saturated hydraulic conductivity: 163.0800 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 30-40cm, field capacity: 40.2700 V%, permanent wilting point: 15.1600 V%, soil porosity: 43.6900 V%, saturated hydraulic conductivity: 54.5490 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 40-50cm, field capacity: 40.2700 V%, permanent wilting point: 15.1600 V%, soil porosity: 43.6900 V%, saturated hydraulic conductivity: 54.5490 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 50-60cm, field capacity: 40.2700 V%, permanent wilting point: 15.1600 V%, soil porosity: 43.6900 V%, saturated hydraulic conductivity: 54.5490 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 60-70cm, field capacity: 39.9100 V%, permanent wilting point: 15.8000 V%, soil porosity: 42.8800 V%, saturated hydraulic conductivity: 56.6000 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 70-80cm, field capacity: 39.9100 V%, permanent wilting point: 15.8000 V%, soil porosity: 42.8800 V%, saturated hydraulic conductivity: 56.6000 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 80-90cm, field capacity: 39.9100 V%, permanent wilting point: 15.8000 V%, soil porosity: 42.8800 V%, saturated hydraulic conductivity: 56.6000 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 90-100cm, field capacity: 39.9100 V%, permanent wilting point: 15.8000 V%, soil porosity: 42.8800 V%, saturated hydraulic conductivity: 56.6000 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 100-110cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 110-120cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 120-130cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 130-140cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 140-150cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 150-160cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 160-170cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 170-180cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 180-190cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,434 - INFO - Depth 190-200cm, field capacity: 38.7200 V%, permanent wilting point: 15.8400 V%, soil porosity: 41.4700 V%, saturated hydraulic conductivity: 57.4320 mm/d
+2025-04-19 16:15:40,436 - INFO - Processed soil data from SoilGrids and HiHydroSoil written to file 'data/raw/soil/v1_soil.txt'.

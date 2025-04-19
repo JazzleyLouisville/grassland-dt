@@ -1,0 +1,6 @@
+[submodule "blocks/copernicus_weather"]
+	path = blocks/copernicus_weather
+	url = https://github.com/BioDT/general-copernicus-weather-data.git
+[submodule "blocks/soilgrids"]
+	path = blocks/soilgrids
+	url = https://github.com/BioDT/general-soilgrids-soil-data.git

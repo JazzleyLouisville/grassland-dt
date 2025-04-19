@@ -1,0 +1,15 @@
+name: biodt-grassland
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - geopandas
+  - xarray
+  - rasterio
+  - scikit-learn
+  - rpy2                # only if you’ll run R code
+  - pip
+  - pip:
+      - -e ./blocks/copernicus_weather
+      - -e ./blocks/soilgrids

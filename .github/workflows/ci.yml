@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  fair:                              # ── job 1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: fair-software/howfairis-github-action@v2
+
+  train-sdm:                         # ── job 2
+    needs: fair                      # waits for the 'fair' job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- set up Python + deps (mamba or conda) ---
+      - name: Install deps
+        run: |
+          sudo apt-get update && sudo apt-get install -y mamba
+          mamba create -n dt -y python=3.11 scikit-learn pandas geopandas pygbif joblib
+          source ~/mamba/etc/profile.d/conda.sh
+          conda activate dt
+
+      # --- data + model pipeline ---
+      - name: Fetch GBIF & train SDM
+        run: |
+          python scripts/fetch_gbif.py
+          python scripts/join_env_pollinators.py
+          python - <<'PY'
+          import joblib, pandas as pd
+          from sklearn.ensemble import RandomForestClassifier
+          df = pd.read_csv("data/processed/pollinators_with_env.csv")
+          X=df[["temp","precip","nitrogen"]]; y=df["species"]
+          m=RandomForestClassifier(n_estimators=200).fit(X,y)
+          joblib.dump(m,"models/pollinator_sdm.joblib")
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pollinator_sdm
+          path: models/pollinator_sdm.joblib
