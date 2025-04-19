@@ -14,7 +14,7 @@ jobs:
       - name: Measure compliance with fair‑software.eu
         uses: fair-software/howfairis-github-action@0.2.1
         with:
-          MY_REPO_URL: "https://github.com/JazzleyLouisville/grassland-dt"
+          MY_REPO_URL: ${{ github.repositoryUrl }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
