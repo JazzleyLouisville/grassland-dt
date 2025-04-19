@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "grassland-dt: A FAIR‑aware DevOps prototype for ecosystem digital twins"
+version: "0.1.0"
+doi: "10.5281/zenodo.15249204"     # see next step
+authors:
+  - family-names: Louisville
+    given-names: Jazzley
+date-released: 2025-04-19
+url: https://github.com/JazzleyLouisville/grassland-dt

@@ -1,0 +1,18 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "grassland-dt",
+    "version": "0.1.0",
+    "description": "A FAIR-aware DevOps prototype for ecosystem digital twins",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Jazzley",
+        "familyName": "Louisville"
+      }
+    ],
+    "license": "https://opensource.org/licenses/MIT",
+    "codeRepository": "https://github.com/JazzleyLouisville/grassland-dt",
+    "datePublished": "2025-04-19"
+  }
+  
