@@ -26,23 +26,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 1) Install miniconda & create env from your environment.yml
-      - uses: conda-incubator/setup-miniconda@v3
+      # 1) Use setup-python to get Python
+      - uses: actions/setup-python@v4
         with:
-          python-version: 3.11
-          environment-file: environment.yml
-          activate-environment: biodt-grassland
+          python-version: '3.11'
 
-      # 2) run your scripts inside that env
+      # 2) Install your dependencies with pip
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pygbif geopandas scikit-learn joblib pandas shapely pyproj
+
+      # 3) Run your data‐fetch and model‐train scripts
       - name: Train pollinator SDM
         run: |
           python scripts/fetch_gbif.py
           python scripts/join_env_pollinators.py
           python scripts/train_sdm.py
 
-      # 3) upload model
+      # 4) Upload the trained model artifact
       - uses: actions/upload-artifact@v4
         with:
           name: pollinator_sdm
           path: models/pollinator_sdm.joblib
-
