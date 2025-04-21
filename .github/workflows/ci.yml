@@ -16,39 +16,33 @@ jobs:
           MY_REPO_URL: https://github.com/${{ github.repository }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
 
 
 
-  train-sdm:                         # ── job 2
-    needs: fair                      # waits for the 'fair' job
+
+  train-sdm:
+    needs: fair
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      # --- set up Python + deps (mamba or conda) ---
-      - name: Install deps
-        run: |
-          sudo apt-get update && sudo apt-get install -y mamba
-          mamba create -n dt -y python=3.11 scikit-learn pandas geopandas pygbif joblib
-          source ~/mamba/etc/profile.d/conda.sh
-          conda activate dt
+      # 1) Install miniconda & create env from your environment.yml
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: 3.11
+          environment-file: environment.yml
+          activate-environment: biodt-grassland
 
-      # --- data + model pipeline ---
-      - name: Fetch GBIF & train SDM
+      # 2) run your scripts inside that env
+      - name: Train pollinator SDM
         run: |
           python scripts/fetch_gbif.py
           python scripts/join_env_pollinators.py
-          python - <<'PY'
-          import joblib, pandas as pd
-          from sklearn.ensemble import RandomForestClassifier
-          df = pd.read_csv("data/processed/pollinators_with_env.csv")
-          X=df[["temp","precip","nitrogen"]]; y=df["species"]
-          m=RandomForestClassifier(n_estimators=200).fit(X,y)
-          joblib.dump(m,"models/pollinator_sdm.joblib")
-          PY
+          python scripts/train_sdm.py
 
+      # 3) upload model
       - uses: actions/upload-artifact@v4
         with:
           name: pollinator_sdm
           path: models/pollinator_sdm.joblib
+
